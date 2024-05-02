@@ -18,7 +18,7 @@
 .banner{
     width:100%;
     height: 650px;
-    background-image: url(https://i.ibb.co/kHmMsgR/wed-img.jpg);
+    background-image: url('./banner.PNG');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -91,7 +91,7 @@
 .section{
     width:100%;
     height: auto;
-    background-color: #efefef;
+    /* background-color: #efefef; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -113,8 +113,8 @@
     width:200px;
     height: 200px;
     border-radius: 50%;
-    border-top: 10px solid #f15;
-    border-bottom: 10px solid #f15;
+    /* border-top: 10px solid #f15;
+    border-bottom: 10px solid #f15; */
     margin-bottom: 20px;
 }
 .section h2{
@@ -133,22 +133,23 @@
     padding: 8px;
     background-color: #f15;
     border-radius: 8px;
+    text-align: center;
 }
-.venue{
-    width:50%;
+/* .venue{
+    width:100%;
     height: auto;
     background-color: #fff;
     border-radius: 20px;
     margin-top: 20px;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
     box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
-}
+} */
 .venue img{
-    width:50%;
+    width:100%;
     height: 300px;
     display: inline;
     border:2px solid #f15;
@@ -166,7 +167,7 @@
     color:#333;
 }
 .party{
-    width:80%;
+    width:100%;
     height: auto;
     background-color: #fff;
     border-radius: 20px;
@@ -179,7 +180,7 @@
     box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
 }
 .party img{
-    width:50%;
+    width:100%;
     height: 300px;
     display: inline;
     border:2px solid #f15;
@@ -208,4 +209,15 @@ footer i{
     color:skyblue;
     font-size: 30px;
     margin-left: 20px;
+}
+.watching{
+    font-size: 50px;
+    margin-bottom: 0px;
+
+}
+.banner-rec{
+    width: 100%;
+}
+.location{
+    font-size: 50px;
 }

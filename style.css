@@ -4172,9 +4172,9 @@ section.side-flowers {
 		text-align: center!important;
 		justify-content: center!important;
 	}
-	.gallery-container .timeline-gallery-wrapper .item > img{
-		border-radius: 50%;
-	}
+	.image-wrapper{
+        display: none;
+    }
 }
 
 .wedding-gifts li .info {
@@ -7864,13 +7864,13 @@ text-transform:uppercase;
    
 }
 
-.story-section{
+/* .story-section{
     background-image:url('./woood-removebg-preview.png');
     background-position: center;
     background-repeat: no-repeat;
     border: 5px solid saddlebrown;
     background-color: #157E4E;
-}
+} */
 .story-title{
     color: white;
 }

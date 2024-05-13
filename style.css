@@ -7453,6 +7453,9 @@ textarea.form-control {
 }
 
 @media (max-width: 991px) {
+   .img-qr{
+       height: 100px;
+    }
   #clock .box{min-width:80px;}
   #clock .box > div {
     font-size: 20pt;
@@ -7471,6 +7474,9 @@ textarea.form-control {
   #clock .box span {
     font-size: 12px;
     font-size: 0.8rem;
+  }
+  .img-qr{
+    height: 100px;
   }
 }
 
